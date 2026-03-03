@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "{{cookiecutter.project_slug}}"
+version = "0.1.0"
+description = "{{cookiecutter.project_name}}"
+authors = ["{{cookiecutter.author_name}}"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^{{cookiecutter.python_version}}"
+pandas = "^2.2.0"
+numpy = "^1.26.0"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+
+{% if cookiecutter.use_metaflow == "yes" %}
+metaflow = "^2.10.0"
+{% endif %}
+
+{% if cookiecutter.use_mlflow == "yes" %}
+mlflow = "^2.11.0"
+{% endif %}
+
+{% if cookiecutter.use_streamlit == "yes" %}
+streamlit = "^1.32.0"
+plotly = "^5.20.0"
+{% endif %}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.0.0"
+ruff = "^0.3.0"
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
