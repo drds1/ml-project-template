@@ -6,6 +6,8 @@ Author: {{cookiecutter.author_name}}
 
 ## Overview
 
+{{cookiecutter.project_description}}
+
 This project was generated from the ML Project Template.  
 It includes:
 

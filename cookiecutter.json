@@ -1,0 +1,11 @@
+{
+  "project_name": "My ML Project",
+  "project_description": "Machine learning project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author_name": "Your Name",
+  "python_version": "3.11",
+  "use_metaflow": "yes",
+  "use_streamlit": "yes",
+  "use_mlflow": "yes",
+  "license": "MIT"
+}

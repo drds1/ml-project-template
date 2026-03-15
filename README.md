@@ -61,8 +61,10 @@ Includes:
 
 2. **Generate a new ML project**:
 
+   Clone this repo into your project directory. Then initialise the new project using:
+
    ```
-   cookiecutter gh:your-username/ml-project-template
+   cookiecutter ./ml-project-template
    ```
 
    You will be prompted for:
