@@ -1,0 +1,16 @@
+[default]
+project_name = "{{cookiecutter.project_slug}}"
+log_level = "INFO"
+data_dir = "data"
+models_dir = "models"
+
+[development]
+environment = "development"
+log_level = "DEBUG"
+
+[staging]
+environment = "staging"
+
+[production]
+environment = "production"
+log_level = "WARNING"

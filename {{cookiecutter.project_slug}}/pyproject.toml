@@ -11,6 +11,7 @@ pandas = "^2.2.0"
 numpy = "^1.26.0"
 python-dotenv = "^1.0.1"
 requests = "^2.31.0"
+dynaconf = "^3.2"
 
 {% if cookiecutter.use_metaflow == "yes" %}
 metaflow = "^2.10.0"
