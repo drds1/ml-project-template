@@ -1,5 +1,5 @@
 # tests/test_settings.py
-from settings import settings
+from settings.settings import settings
 
 def test_settings_load():
     """Ensure configuration loads correctly."""
