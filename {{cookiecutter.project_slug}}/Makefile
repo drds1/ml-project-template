@@ -17,6 +17,10 @@ experiment:
 test:
 	poetry run pytest
 
+test-cov:
+	coverage run -m pytest -v ./tests
+	coverage report -m
+
 format:
 	poetry run black .
 	poetry run ruff check . --fix
