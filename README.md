@@ -28,7 +28,7 @@ Includes:
       .pre-commit-config.yaml  
       README.md  
       .env.example  
-      src/{{cookiecutter.project_slug}}/  
+      src/  
           __init__.py  
           config.py  
           experiment.py  
