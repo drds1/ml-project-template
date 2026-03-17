@@ -3,6 +3,8 @@ project_name = "{{cookiecutter.project_slug}}"
 log_level = "INFO"
 data_dir = "data"
 models_dir = "models"
+experiment_config_file = "default.json"
+
 
 [development]
 environment = "development"

@@ -26,6 +26,10 @@ streamlit = "^1.32.0"
 plotly = "^5.20.0"
 {% endif %}
 
+{% if cookiecutter.use_snowflake == "yes" %}
+snowflake-connector-python = "^4.3.0"
+{% endif %}
+
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
 black = "^24.0.0"
