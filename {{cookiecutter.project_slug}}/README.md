@@ -68,7 +68,7 @@ It includes:
 
 ## Project Structure
 
-- `src/{{cookiecutter.project_slug}}/` → main Python package  
+- `src/` → main Python package  
 - `flows/` → Metaflow pipelines  
 - `dashboard/` → Streamlit app  
 - `.pre-commit-config.yaml` → pre-commit hooks  
@@ -80,7 +80,7 @@ It includes:
 ## Notes
 
 - This project is ready to run immediately after generation  
-- Replace placeholder code in `flows/main_flow.py`, `dashboard/app.py`, and `src/{{cookiecutter.project_slug}}/experiment.py` with your own logic  
+- Replace placeholder code in `flows/main_flow.py`, `dashboard/app.py`, and `src/experiment.py` with your own logic  
 - All commands can be run via `make` for simplicity
 
 ---
