@@ -8,5 +8,7 @@
   "use_streamlit": "yes",
   "use_mlflow": "yes",
   "use_snowflake": "no",
+  "use_duckdb":"yes",
+  "use_openai":"no",
   "license": "MIT"
 }
